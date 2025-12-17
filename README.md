@@ -48,17 +48,6 @@
 
 ---
 
-## Screenshots
-
-<div align="center">
-  <img src="screenshots/vault.png" width="200" />
-  <img src="screenshots/expense-form.png" width="200" />
-  <img src="screenshots/dashboard.png" width="200" />
-  <img src="screenshots/settings.png" width="200" />
-</div>
-
----
-
 ## Download & Install
 
 ### Android
