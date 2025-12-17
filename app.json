@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SpendWise",
+    "slug": "spendwise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/AppLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/AppLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#10b981"
+    },
+    "assetBundlePatterns": [
+      "assets/AppLogo.png"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spendwise.app"
+    },
+    "android": {
+      "package": "com.spendwise.app",
+      "permissions": [
+        "android.permission.VIBRATE"
+      ],
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/AppLogo.png",
+        "backgroundColor": "#10b981"
+      },
+      "enableProguard": true,
+      "enableShrinkResources": true
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "64736f1b-74d4-4a78-a626-31a3b7adf9ad"
+      }
+    }
+  }
+}

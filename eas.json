@@ -1,0 +1,32 @@
+{
+  "cli": {
+    "version": ">= 5.9.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease",
+        "env": {
+          "EXPO_OPTIMIZE": "1"
+        }
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "env": {
+          "EXPO_OPTIMIZE": "1"
+        }
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
